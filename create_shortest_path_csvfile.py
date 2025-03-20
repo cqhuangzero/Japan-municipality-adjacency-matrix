@@ -36,4 +36,4 @@ for i, source in tqdm(enumerate(nodes_list), total=num_nodes, desc="Calculating 
 shortest_path_df = pd.DataFrame(shortest_path_matrix, index=nodes_list, columns=nodes_list)
 
 # Save as CSV
-shortest_path_df.to_csv("D:\\desktop\\map\\shortest_paths.csv", encoding="utf-8-sig")
+shortest_path_df.to_csv("D:\\desktop\\map\\shortest_paths.csv", encoding="utf-8")
