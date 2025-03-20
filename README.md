@@ -5,7 +5,7 @@ This repository contains an R script to create an adjacency matrix for all munic
 You can download latest GIS data from the official site: 🔗https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-v3_1.html
 
 ##❓ why .geojson rather than .shp?
-Japan's MLIT commonly provides boundary data, road networks, and public facility locations in this format as an open standard format.
+- Japan's MLIT commonly provides boundary data, road networks, and public facility locations in this format as an open standard format.
 
 ## 🚀 How to Use
 Change the source name.
