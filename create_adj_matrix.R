@@ -23,7 +23,7 @@ colnames(data) <- c("prefecture", "city", "geometry")
 # Fix invalid geometries
 data$geometry <- st_make_valid(data$geometry)
 
-# Speed up ploy2nb computing by using paralleling computing
+# Generate nb
 nb <- poly2nb(data, queen = T, snap = 0.001)
 
 # Convert to adjacency matrix
